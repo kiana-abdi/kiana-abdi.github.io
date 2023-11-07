@@ -108,7 +108,7 @@ analytics:
 # Site Author
 author:
   name             : "Kiana Abdi"
-  avatar           : "/assets/images/bio-photo.jpg"
+  avatar           : "C:\Users\11\Pictures\Remini20211119132814198.jpg"
   bio              : Poet , Studendt of CE at IUST
   location         : "Tehran"
   email            : k.a.s.20041230@gmail.com
@@ -137,7 +137,7 @@ author:
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
     - label: "Telegram"
-      icon: "fab fa-telegram"
+      icon: "http://t.m/Serendipiy_k"
       url: "http://t.me/Sauleh"
 
 # Site Footer
