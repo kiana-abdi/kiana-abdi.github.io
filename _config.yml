@@ -137,7 +137,7 @@ author:
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
     - label: "Telegram"
-      icon: "http://t.m/Serendipiy_k"
+      icon: "fab fa-telegram"
       url: "http://t.me/Sauleh"
 
 # Site Footer
