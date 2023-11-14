@@ -1,8 +1,5 @@
 ---
 layout: posts
-title: در کلاس چه گذشت
+title: Interesting Facts
 ---
-
-- We wrote some code
-- We built our website
-- We pushed
+- There aren't any fact yet
