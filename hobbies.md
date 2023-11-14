@@ -9,6 +9,12 @@ comments: false
 ---
 
 
-* [BJJ](http://www.bjjheros.com/)
+* painting
+* poems
+* chess
+* geometery
+* music
+* football
+* books
 
 
