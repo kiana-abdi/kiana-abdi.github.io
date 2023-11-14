@@ -12,7 +12,7 @@ comments: false
 * painting
 * poems
 * chess
-* geometery
+* geometry
 * music
 * football
 * books
