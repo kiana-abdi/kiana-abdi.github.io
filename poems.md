@@ -1,8 +1,8 @@
 ---
 layout: single
 author_profile: true
-permalink: /links/
-title: Links
+permalink: /poems/
+title: Poems
 tags: [Studying, courses]
 modified: 9-14-2019
 comments: false
