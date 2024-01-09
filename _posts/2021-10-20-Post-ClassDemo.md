@@ -7,9 +7,9 @@ title:  Our projects
 ## How could I make a tree with python?
 To build the tree, I first defined the turtle library. Then I defined the tree function and determined the length of the tree trunk and its branches in it. After that, I colored the trunk and branches brown. I defined the leaves and colored them in three ways. I set the pen size for each section and called the tree function.
 
-<img src="../assets/images/Tree.jpg" alt="This is my tree" width="200">
-<img src="../assets/images/Tree1.jpg" alt="This is my tree1" width="200">
-<img src="../assets/images/Tree2.jpg" alt="This is my tree2" width="200">
+<img src="../assets/images/Tree.jpg" alt="This is my tree" width="500">
+<img src="../assets/images/Tree1.jpg" alt="This is my tree1" width="500">
+<img src="../assets/images/Tree2.jpg" alt="This is my tree2" width="500">
 
 
     import turtle
@@ -55,8 +55,8 @@ To make a triangle, we first define the turtle library.
 We define the triangle function and determine the inside of the loop.
 We draw a half-sized triangle and move forward to the size of a full side, then rotate 120 degrees and repeat this pattern three times in the loop, and then call the function.
 
-<img src="../assets/images/Triangle.jpg" alt="This is my triangle" width="200">
-<img src="../assets/images/Triangle1.jpg" alt="This is my triangle1" width="200">
+<img src="../assets/images/Triangle.jpg" alt="This is my triangle" width="500">
+<img src="../assets/images/Triangle1.jpg" alt="This is my triangle1" width="500">
 
     import turtle
     import random
