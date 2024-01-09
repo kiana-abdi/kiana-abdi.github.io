@@ -3,8 +3,15 @@ layout: posts
 title:  Our projects
 ---
 
+<title>
+Making tree , triangle , jungle
+</title>
+
 ## Tree
 ## How could I make a tree with python?
+
+<h1 style="text-align: center; color: rgb(1, 150, 33); background-color: rgb(49, 240, 151);">How could I make a tree with python?</h1>
+
 To build the tree, I first defined the turtle library. Then I defined the tree function and determined the length of the tree trunk and its branches in it. After that, I colored the trunk and branches brown. I defined the leaves and colored them in three ways. I set the pen size for each section and called the tree function.
 
 <img src="../assets/images/Tree.jpg" alt="This is my tree" width="500">
