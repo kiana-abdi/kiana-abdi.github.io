@@ -10,22 +10,22 @@ To build the tree, I first defined the turtle library. Then I defined the tree f
 <img src="Tree.JPG" alt="This is my tree" width="500">
 
 
-import turtle
-import random
+    import turtle
+    import random
     
-tu = turtle. Turtle()
+    tu = turtle. Turtle()
     
-tu.screen.bgcolor("lightpink")
-tu.left(90)
-tu.backward(100)
-tu.pensize(7)
-tu.color("brown")
-tu.shape("turtle")
-tu.hideturtle()
+    tu.screen.bgcolor("lightpink")
+    tu.left(90)
+    tu.backward(100)
+    tu.pensize(7)
+    tu.color("brown")
+    tu.shape("turtle")
+    tu.hideturtle()
     
-def tree(d , r):
-    if d=10 or  r!10:
-        return
+    def tree(d , r):
+        if d=10 or  r!10:
+            return
         
         
     tu.forward(d)
@@ -43,10 +43,10 @@ def tree(d , r):
     tu.backward(d)
     
     
-turtle.tracer(0)
-turtle.left(90)
-tree(100 , 30)
-turtle.mainloop()
+    turtle.tracer(0)
+    turtle.left(90)
+    tree(100 , 30)
+    turtle.mainloop()
    
 ---
 **Test**: This is atest
