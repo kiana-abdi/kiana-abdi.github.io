@@ -16,6 +16,7 @@ To build the tree, I first defined the turtle library. Then I defined the tree f
 
 <img src="../assets/images/Tree.jpg" alt="This is my tree" width="500">
 
+<pre>
     import turtle
     import random
 
@@ -51,12 +52,13 @@ To build the tree, I first defined the turtle library. Then I defined the tree f
     turtle.left(90)
     tree(100 , 30)
     turtle.mainloop()
+</pre>
 
 
 
 <img src="../assets/images/Tree1.jpg" alt="This is my tree1" width="500">
 
-
+<pre>
     import turtle
 
     tu = turtle. Turtle()
@@ -89,11 +91,13 @@ To build the tree, I first defined the turtle library. Then I defined the tree f
     
     tree(100)
     turtle.mainloop()
+</pre>
 
 
 
 <img src="../assets/images/Tree2.jpg" alt="This is my tree2" width="500">
 
+<pre>
     import turtle
     import random
     
@@ -130,6 +134,7 @@ To build the tree, I first defined the turtle library. Then I defined the tree f
     turtle.left(90)
     tree(100 , 30)
     turtle.mainloop()
+</pre>
     
 
    
@@ -142,6 +147,7 @@ We draw a half-sized triangle and move forward to the size of a full side, then 
 
 <img src="../assets/images/Triangle.jpg" alt="This is my triangle" width="500">
 
+<pre>
     import turtle
     import random
     turtle.hideturtle()
@@ -164,10 +170,12 @@ We draw a half-sized triangle and move forward to the size of a full side, then 
     turtle.update()
     turtle.end_fill()
     turtle.mainloop()
+</pre>
 
 
 <img src="../assets/images/Triangle1.jpg" alt="This is my triangle1" width="500">
 
+<pre>
     import turtle
 
     t = turtle. Turtle()
@@ -199,6 +207,7 @@ We draw a half-sized triangle and move forward to the size of a full side, then 
     
     draw_ser(t , 3 , 300)
     turtle.mainloop()
+</pre>
 
 
 
