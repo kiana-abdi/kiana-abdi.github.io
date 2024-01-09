@@ -1,6 +1,6 @@
 ---
 layout: posts
-title:  Our project
+title:  Our projects
 ---
 
 ## Tree
@@ -8,6 +8,8 @@ title:  Our project
 To build the tree, I first defined the turtle library. Then I defined the tree function and determined the length of the tree trunk and its branches in it. After that, I colored the trunk and branches brown. I defined the leaves and colored them in three ways. I set the pen size for each section and called the tree function.
 
 <img src="../assets/images/Tree.jpg" alt="This is my tree" width="200">
+<img src="../assets/images/Tree1.jpg" alt="This is my tree1" width="200">
+<img src="../assets/images/Tree2.jpg" alt="This is my tree2" width="200">
 
 
     import turtle
@@ -46,5 +48,47 @@ To build the tree, I first defined the turtle library. Then I defined the tree f
     tree(100 , 30)
     turtle.mainloop()
    
+
+## Triangle
+## How could I make a triangle with python?
+To make a triangle, we first define the turtle library.
+We define the triangle function and determine the inside of the loop.
+We draw a half-sized triangle and move forward to the size of a full side, then rotate 120 degrees and repeat this pattern three times in the loop, and then call the function.
+
+<img src="../assets/images/Triangle.jpg" alt="This is my triangle" width="200">
+<img src="../assets/images/Triangle1.jpg" alt="This is my triangle1" width="200">
+
+    import turtle
+    import random
+    turtle.hideturtle()
+    
+    def triangle(d):
+        if d=1 :
+            return
+        for _ in range(3):
+            triangle(d/2)
+            turtle.forward(d)
+            turtle.left(120)
+    turtle.tracer(0)
+    turtle.fillcolor("lightpink")
+    turtle.begin_fill()
+    turtle.pencolor("hotpink4")
+    turtle.penup()
+    turtle.backward(200)
+    turtle.pendown()
+    triangle(400)
+    turtle.update()
+    turtle.end_fill()
+    turtle.mainloop()
+
+
+
+
+
+
+
+
+
+
 ---
 **Test**: This is atest
