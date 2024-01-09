@@ -138,9 +138,9 @@ To build the tree, I first defined the turtle library. Then I defined the tree f
 
    
 
-<h1 style="text-align: center; color: rgb(5, 16, 34); background-color: rgba(113, 250, 250, 0.979);">Triangle</h1>
+<h1 style="text-align: center; color: rgb(20, 39, 128); background-color: rgb(168, 235, 247);">Triangle</h1>
 
-<h1 style="text-align: center; color: rgb(146, 3, 46); background-color: rgba(248, 160, 182, 0.541);">How could I make a triangle with python?</h1>
+<h1 style="text-align: center; color: rgb(146, 20, 72); background-color: rgb(255, 204, 229);">How could I make triangle with python?</h1>
 To make a triangle, we first define the turtle library.
 We define the triangle function and determine the inside of the loop.
 We draw a half-sized triangle and move forward to the size of a full side, then rotate 120 degrees and repeat this pattern three times in the loop, and then call the function.
@@ -208,6 +208,13 @@ We draw a half-sized triangle and move forward to the size of a full side, then 
     draw_ser(t , 3 , 300)
     turtle.mainloop()
 </pre>
+
+
+<h1 style="text-align: center; color: rgb(136, 43, 1); background-color: rgba(225, 247, 128, 0.979);">Jungle</h1>
+
+<h1 style="text-align: center; color: rgb(2, 87, 59); background-color: rgba(79, 247, 163, 0.979);">How could I make jungle with python?</h1>
+
+
 
 
 
