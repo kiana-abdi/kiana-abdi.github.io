@@ -7,8 +7,7 @@ title:  Our project
 ## How could I make a tree with python?
 To build the tree, I first defined the turtle library. Then I defined the tree function and determined the length of the tree trunk and its branches in it. After that, I colored the trunk and branches brown. I defined the leaves and colored them in three ways. I set the pen size for each section and called the tree function.
 
-url: /assets/images/tree.jpg
-image_path: /assets/images/tree.jpg
+
 
 
 import turtle
