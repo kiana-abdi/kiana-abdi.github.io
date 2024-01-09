@@ -214,8 +214,101 @@ We draw a half-sized triangle and move forward to the size of a full side, then 
 
 <h1 style="text-align: center; color: rgb(2, 87, 59); background-color: rgba(79, 247, 163, 0.979);">How could I make jungle with python?</h1>
 
+To create a forest in Python, you can use the same tree codes and randomly create trees with various sizes and colors. Then we change the background color and our forest is ready.
+
 <img src="../assets/images/Screenshot (61).png" alt="This is my triangle1" width="500">
+
+<pre>
+    import random
+    import turtle
+
+    tu = turtle. Turtle()
+
+    tu.screen.bgcolor("lightpink")
+    tu.left(90)
+    tu.pensize(1)
+    #tu.color("brown")
+    tu.shape("turtle")
+    tu.hideturtle()
+
+    def Tree(d, a, w):
+        color = tu.pencolor()
+        if d < 3:
+            return
+        if d < 10 and a != 45:
+        
+            a = 45
+            tu.forward(d)
+            tu.color("seagreen")
+            tu.pensize(2)
+            tu.begin_fill()
+            tu.circle(7)
+            tu.color("mediumspringgreen")
+            #tu.color(random.random() , random.random() , random.random())
+            tu.end_fill()
+            tu.color("orange")
+            tu.left(a)
+            Tree(d*0.5 , a , w)
+            tu.right(2*a)
+            Tree(d*0.5 , a , w)
+            tu.left(a)
+            tu.backward(d)
+
+        tu.pendown()
+        tu.pensize(w)
+        tu.forward(d)
+        tu.left(a)
+        Tree(d * (random.random()/2 + 0.4), 
+            a * (random.random()/2 + 0.7), 
+            w * (random.random()/2 + 0.2))
+        tu.right(2 * a)
+        Tree(d * (random.random()/2 + 0.4), 
+            a * (random.random()/2 + 0.7), 
+            w * (random.random()/2 + 0.2 ))
+        tu.left(a)
+    
+        tu.penup()
+        tu.backward(d)
+        tu.pencolor("salmon4")
+
+    def setup_screen(width, heigh):
+        tu.left(90)
+        tu.pencolor("green")
+        turtle.tracer(0)
+        tu.hideturtle()
+        turtle.screensize(width, heigh)
+
+    width, height = 1800, 1000
+    x=-width/2 + 50
+    y=-height/2 + 100
+    setup_screen(width, height)
+    tree_count = 100
+    tu.right(90)
+    for ـ in range(tree_count):
+        x += random.randint(50, 50)
+        y = random.randint(-500, 500)
+        tu.penup()
+        tu.setpos(x, y)
+        tu.pendown()
+        Tree(
+            random.randint(25, 100), 
+            random.randint(5, 50), 
+            random.randint(5, 50))
+    
+    
+    
+
+        turtle.update()
+        turtle.left(90)
+
+        turtle.mainloop()
+</pre>
+
+
 <img src="../assets/images/Screenshot (62).png" alt="This is my triangle1" width="500">
+
+Three different Jungles...!
+
 <img src="../assets/images/Screenshot (77).png" alt="This is my triangle1" width="500">
 
 
