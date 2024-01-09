@@ -12,9 +12,7 @@ To build the tree, I first defined the turtle library. Then I defined the tree f
 
     import turtle
     import random
-    
     tu = turtle. Turtle()
-    
     tu.screen.bgcolor("lightpink")
     tu.left(90)
     tu.backward(100)
@@ -22,12 +20,9 @@ To build the tree, I first defined the turtle library. Then I defined the tree f
     tu.color("brown")
     tu.shape("turtle")
     tu.hideturtle()
-    
     def tree(d , r):
         if d=10 or  r!10:
             return
-        
-        
     tu.forward(d)
     tu.color(random.random() , random.random() , random.random())
     tu.pensize(2)
@@ -41,8 +36,6 @@ To build the tree, I first defined the turtle library. Then I defined the tree f
     tree(d*0.75 , r)
     tu.left(r)
     tu.backward(d)
-    
-    
     turtle.tracer(0)
     turtle.left(90)
     tree(100 , 30)
