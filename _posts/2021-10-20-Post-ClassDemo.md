@@ -8,7 +8,6 @@ Making tree , triangle , jungle
 </title>
 
 ## Tree
-## How could I make a tree with python?
 
 <h1 style="text-align: center; color: rgb(1, 150, 33); background-color: rgb(49, 240, 151);">How could I make a tree with python?</h1>
 
@@ -141,6 +140,7 @@ To build the tree, I first defined the turtle library. Then I defined the tree f
 
 ## Triangle
 ## How could I make a triangle with python?
+<h1 style="text-align: center; color: rgb(73, 44, 151); background-color: rgb(115, 221, 240);">How could I make a triangle with python?</h1>
 To make a triangle, we first define the turtle library.
 We define the triangle function and determine the inside of the loop.
 We draw a half-sized triangle and move forward to the size of a full side, then rotate 120 degrees and repeat this pattern three times in the loop, and then call the function.
