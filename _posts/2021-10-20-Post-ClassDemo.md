@@ -214,6 +214,11 @@ We draw a half-sized triangle and move forward to the size of a full side, then 
 
 <h1 style="text-align: center; color: rgb(2, 87, 59); background-color: rgba(79, 247, 163, 0.979);">How could I make jungle with python?</h1>
 
+<img src="../assets/images/Screenshot (61).png" alt="This is my triangle1" width="500">
+<img src="../assets/images/Screenshot (62).png" alt="This is my triangle1" width="500">
+<img src="../assets/images/Screenshot (77).png" alt="This is my triangle1" width="500">
+
+
 
 
 
