@@ -216,7 +216,7 @@ We draw a half-sized triangle and move forward to the size of a full side, then 
 
 To create a forest in Python, you can use the same tree codes and randomly create trees with various sizes and colors. Then we change the background color and our forest is ready.
 
-<img src="../assets/images/Screenshot (61).png" alt="This is my triangle1" width="500">
+<img src="../assets/images/Screenshot (77).png" alt="This is my triangle1" width="500">
 
 <pre>
     import random
@@ -309,7 +309,7 @@ To create a forest in Python, you can use the same tree codes and randomly creat
 
 Three different Jungles...!
 
-<img src="../assets/images/Screenshot (77).png" alt="This is my triangle1" width="500">
+<img src="../assets/images/Screenshot (61).png" alt="This is my triangle1" width="500">
 
 
 
