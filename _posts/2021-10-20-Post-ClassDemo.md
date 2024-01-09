@@ -7,7 +7,7 @@ title:  Our projects
 Making tree , triangle , jungle
 </title>
 
-## Tree
+<h1 style="text-align: center; color: rgb(51, 2, 63); background-color: rgba(178, 136, 187, 0.979);">Tree</h1>
 
 <h1 style="text-align: center; color: rgb(1, 150, 33); background-color: rgb(49, 240, 151);">How could I make a tree with python?</h1>
 
@@ -138,7 +138,7 @@ To build the tree, I first defined the turtle library. Then I defined the tree f
 
    
 
-## Triangle
+<h1 style="text-align: center; color: rgb(5, 16, 34); background-color: rgba(113, 250, 250, 0.979);">Triangle</h1>
 
 <h1 style="text-align: center; color: rgb(146, 3, 46); background-color: rgba(248, 160, 182, 0.541);">How could I make a triangle with python?</h1>
 To make a triangle, we first define the turtle library.
